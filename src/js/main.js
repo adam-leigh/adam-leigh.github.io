@@ -1,4 +1,4 @@
 console.log("Hello from main.js");
 
-h1 = document.querySelector("h1");
+h1 = document.getElementsByTagName("h1")[0].innerHTML;
 console.log(h1);
